@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Site under construction</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-      color: #333;
-    }
-    h1 {
-      font-size: 2rem;
-      text-align: center;
-    }
-  </style>
-</
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 flex items-center justify-center min-h-screen p-4">
+
+    <div class="max-w-md w-full bg-white rounded-3xl shadow-xl shadow-slate-200/60 p-8 border border-slate-100 text-center">
+        <div class="w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6 text-2xl shadow-sm">
+            📱
+        </div>
+
+        <h1 class="text-2xl font-bold text-slate-800 mb-3">
+            Developer Information
+        </h1>
+        
+        <p class="text-slate-500 leading-relaxed mb-8">
+            This domain is officially used to host the <code class="bg-slate-100 px-1.5 py-0.5 rounded text-blue-700 font-mono text-sm">app-ads.txt</code> file and other developer verification records for my mobile application.
+        </p>
+
+        <a href="app-ads.txt" 
+           class="inline-flex items-center justify-center w-full bg-slate-900 hover:bg-blue-600 text-white font-semibold py-4 px-6 rounded-2xl transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-slate-200">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="C9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            Open app-ads.txt
+        </a>
+
+        <div class="mt-8 pt-6 border-t border-slate-50 text-xs text-slate-400 uppercase tracking-widest">
+            Authorized Developer Domain
+        </div>
+    </div>
+
+</body>
+</html>
